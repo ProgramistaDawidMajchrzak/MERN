@@ -1,0 +1,27 @@
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 400px;
+  height: 500px;
+  background-color: #a5a4a4;
+}
+.container h3 {
+  color: #5050ee;
+}
+.container .tasks {
+  width: 90%;
+  height: auto;
+}
+.container .tasks .task {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}/*# sourceMappingURL=App.css.map */
